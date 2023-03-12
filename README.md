@@ -6,10 +6,41 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 ## BE
 
-yarn run:dev
+Run Docker desktop
 
-yarn dev
+Run Docker containers
+
+```bash
+  yarn docker
+```
+
+Run Prisma
+
+```bash
+  yarn push
+```
+
+```bash
+  yarn migrate
+```
+
+Run project
+
+```bash
+  yarn dev
+```
+
+Bonus
+
+View database
+
+```bash
+  yarn studio
+```
 
 ## FE
 
+```bash
 yarn dev
+
+```

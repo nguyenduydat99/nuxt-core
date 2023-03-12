@@ -12,6 +12,13 @@
 
   "rules": {
     "no-console": "error",
-    "prettier/prettier": ["error", { "singleQuote": true, "semi": false }]
+    "prettier/prettier": ["error", { "singleQuote": true, "semi": false }],
+    "vue/multi-word-component-names": ["off"],
+    "vue/no-unused-vars": [
+      "error",
+      {
+        "ignorePattern": "^_"
+      }
+    ]
   }
 }
