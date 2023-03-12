@@ -1,5 +1,5 @@
 export default defineEventHandler(() => {
   return {
-    api: 'works',
+    api: 'dd',
   }
 })
